@@ -1,0 +1,7 @@
+#File types
+*.zip
+*.log
+LOG
+LOG.old
+CURRENT
+LOCK
