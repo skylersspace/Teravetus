@@ -1,0 +1,113 @@
+{
+  "id": "teravetus",
+  "title": "Teravetus",
+  "version": "0.0.3",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "url": "https://github.com/skylersspace/FoundryVTT/releases/tag/teravetus-0.0.3",
+  "manifest": "https://github.com/skylersspace/FoundryVTT/releases/download/teravetus-0.0.3/module.json",
+  "download": "https://github.com/skylersspace/FoundryVTT/releases/download/teravetus-0.0.3/module.zip",
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "5e-expanded",
+        "type": "module"
+      }
+    ]
+  },
+  "description": "The module for all data directly related to the world and campaign of Teravetus",
+  "authors": [
+    {
+      "name": "Skyler Jackson",
+      "discord": "skylersspace"
+    }
+  ],
+  "packs": [
+    {
+      "name": "player-characters",
+      "label": "Player Characters",
+      "path": "packs/player-characters",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "non-player-characters",
+      "label": "Non-Player Characters",
+      "path": "packs/non-player-characters",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "items",
+      "label": "Items",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "maps",
+      "label": "Maps",
+      "path": "packs/maps",
+      "type": "Scene",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "journals",
+      "label": "Journals",
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Teravetus",
+      "sorting": "a",
+      "packs": [
+        "items",
+        "maps",
+        "journals"
+      ],
+      "folders": [
+        {
+          "name": "Characters",
+          "sorting": "a",
+          "packs": [
+            "player-characters",
+            "non-player-characters"
+          ],
+          "folders": []
+        }
+      ]
+    }
+  ]
+}
