@@ -56,6 +56,17 @@
       }
     },
     {
+      "name": "monsters",
+      "label": "Monsters",
+      "path": "packs/monsters",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "items",
       "label": "Items",
       "path": "packs/items",
@@ -104,7 +115,8 @@
           "sorting": "a",
           "packs": [
             "player-characters",
-            "non-player-characters"
+            "non-player-characters",
+            "monsters"
           ],
           "folders": []
         }
