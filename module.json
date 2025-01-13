@@ -1,7 +1,7 @@
 {
   "id": "teravetus",
   "title": "Teravetus",
-  "version": "0.0.1",
+  "version": "0.0.0.1",
   "compatibility": {
     "minimum": "11",
     "verified": "12"
@@ -16,12 +16,6 @@
         "id": "dnd5e",
         "type": "system",
         "compatibility": {}
-      }
-    ],
-    "requires": [
-      {
-        "id": "5e-expanded",
-        "type": "module"
       }
     ]
   },
@@ -98,6 +92,97 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+
+
+
+    {
+      "name": "backgrounds",
+      "label": "Backgrounds",
+      "path": "packs/backgrounds",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "boons",
+      "label": "Boons",
+      "path": "packs/boons",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "classes",
+      "label": "Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "monster-features",
+      "label": "Monster Features",
+      "path": "packs/monster-features",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "races",
+      "label": "Races",
+      "path": "packs/races",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "tables",
+      "label": "Tables",
+      "path": "packs/tables",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "packFolders": [
@@ -105,7 +190,6 @@
       "name": "Teravetus",
       "sorting": "a",
       "packs": [
-        "items",
         "maps",
         "journals"
       ],
@@ -115,10 +199,25 @@
           "sorting": "a",
           "packs": [
             "player-characters",
-            "non-player-characters",
-            "monsters"
+            "non-player-characters"
           ],
           "folders": []
+        },
+        {
+          "name": "5e Revised",
+          "sorting": "a",
+          "packs": [
+            "backgrounds",
+            "boons",
+            "classes",
+            "feats",
+            "items",
+            "monsters",
+            "monster-features",
+            "races",
+            "spells",
+            "tables"
+          ]
         }
       ]
     }
